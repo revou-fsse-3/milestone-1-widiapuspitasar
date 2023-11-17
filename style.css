@@ -1,8 +1,13 @@
+@font-face {
+  font-family: Poppins-Medium;
+  src: url(assets\font\Poppins-Medium.ttf);
+}
+
 body {
   background-color: #f4dfb6;
   margin: 0;
   padding: 0;
-  font-family: "Arial", sans-serif;
+  font-family: Poppins-Medium;
 }
 
 /* section navbar */
@@ -12,6 +17,11 @@ nav {
   display: flex;
   justify-content: space-between;
   width: 100%;
+}
+
+.index {
+  position: fixed;
+  z-index: 999;
 }
 
 nav ul {
@@ -27,17 +37,26 @@ nav ul {
   margin-left: 30px;
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
+  animation: fadeInUp 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both,
+    moveDown 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) 1.5s both;
+  transform: translateY(-50px);
+  opacity: 0;
 }
 
 nav ul li a {
   text-decoration: none;
-  font-family: "Segoe UI", sans-serif;
   color: black;
-  font-weight: 800;
+  font-weight: bold;
+  font-size: 20px;
   padding: 8px 0;
   transition: all;
   transition-duration: 300ms;
   border-bottom: 1px solid rgba(255, 68, 0, 0);
+
+  animation: fadeInUp 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both,
+    moveDown 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) 1.5s both;
+  transform: translateY(-50px);
+  opacity: 0;
 }
 
 nav ul li a:hover {
@@ -59,6 +78,11 @@ nav ul li a:hover {
   font-weight: 800;
   text-decoration: none;
   color: black;
+
+  animation: fadeInUp 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both,
+    moveDown 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) 1.5s both;
+  transform: translateY(-50px);
+  opacity: 0;
 }
 
 .join:hover {
@@ -67,29 +91,10 @@ nav ul li a:hover {
   color: white;
 }
 
+
 /* section navbar */
 
 /* section home */
-/* .home-bg{
-    background-image: url("assets/bg-img.jpeg") ;
-  }
-
-.title {
-  text-align: center;
-  color: black;
-  text-transform: uppercase;
-  text-shadow: 5px 5px 5px white;
-  padding-top: 20px;
-  padding-bottom: 10px;
-  font-size: 2rem;
-  margin-top: 20px;
-  background-size: cover;
-  background-position: center center;
-  margin-bottom: 20px;
-
-  background-color: #132743;
-  } */
-
 .home {
   position: relative;
   overflow: hidden;
@@ -126,6 +131,33 @@ nav ul li a:hover {
   padding-top: 20px;
   padding-bottom: 20px;
   font-size: 3rem;
+
+  animation: fadeInUp 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both,
+    moveDown 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) 1.5s both;
+  transform: translateY(-50px);
+  opacity: 0;
+}
+
+@keyframes fadeInUp {
+  0% {
+    transform: translateY(-50px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes moveDown {
+  0% {
+    transform: translateY(-50px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
 }
 
 /* section home */
@@ -201,7 +233,7 @@ nav ul li a:hover {
 }
 
 .body-card p {
-  margin-right: 100px; 
+  margin-right: 100px;
 }
 
 .body-card button {
@@ -212,10 +244,10 @@ nav ul li a:hover {
 }
 /* section card */
 
-
-
 /* section faq */
-.faq h2{
+
+
+.faq h2 {
   text-shadow: 3px 2px 4px white;
   padding-top: 2rem;
   padding-bottom: 2rem;
@@ -223,7 +255,7 @@ nav ul li a:hover {
   text-align: center;
 }
 
-.faq{
+.faq {
   padding-bottom: 4rem;
 }
 .collapsible {
@@ -252,11 +284,9 @@ nav ul li a:hover {
 .collapsible:hover {
   background-color: #f1eb90;
 }
-.collapsible i:hover{
+.collapsible i:hover {
   color: red;
 }
-
-
 
 .content {
   padding: 0 18px;
@@ -276,85 +306,15 @@ nav ul li a:hover {
   max-width: 100%;
 }
 
+.faq-pair{
+  display: flex;
+  flex-direction: column;
+}
+
 .head-faq {
   padding-top: 10px;
 }
 /* section faq */
-
-/* section testimonial */
-.testi{
-  display: flex;
-  padding: 3rem;
-}
-.container-testi {
-  padding: 0;
-  margin: 0 auto;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
-  position: relative;
-  justify-content: center;
-  max-width: 1000px;
-}
-
-.card-testi img {
-  border-radius: 50%;
-  width: 25%;
-}
-.card-testi {
-  width: 100%;
-  height: auto;
-  margin: 10px 0;
-  border-radius: 15px;
-  position: relative;
-  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
-  background-color: #ec8f5e;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-.star-container {
-  display: flex;
-  padding-top: 10px;
-  padding-left: 10px;
-}
-
-.card-testi {
-  transition: transform 0.3s ease;
-}
-
-.card-testi:hover {
-  transform: translateY(-30px);
-  background: #f3b664;
-  color: white;
-}
- .body-testi h3 {
-  text-align: center;
-  padding-left: 10px;
-}
-.head-testi i {
-  color: gold;
-  display: flex;
-  font-size: 25px;
-  align-items: center;
-  justify-content: center;
-}
-
-.body-testi {
-  align-items: center;
-}
-
-.body-testi p {
-  margin:auto; 
-  padding-left: 1rem;
-  padding-bottom: 1rem;
-  padding-right: 1rem;
-}
-
-
-/* section testimonial */
-
 
 /* Section Term of Condition */
 .toc-container {
@@ -428,6 +388,7 @@ button:hover {
 }
 /* section signup */
 
+/* section footer */
 footer {
   background-color: #ec8f5e;
   color: black;
@@ -442,7 +403,9 @@ footer {
   align-items: center;
 }
 
-.column1, .column2, .column3 {
+.column1,
+.column2,
+.column3 {
   flex: 1;
   margin: 0;
 }
@@ -466,11 +429,10 @@ ul {
 }
 
 li a {
-  margin-bottom: 8px;  
+  margin-bottom: 8px;
   color: black;
   text-decoration: none;
 }
-
 
 .social-icons {
   display: flex;
@@ -484,9 +446,12 @@ li a {
   text-decoration: none;
 }
 
-.column2 a:hover, .social-icons a:hover{
-  color: #F3B664;
+.column2 a:hover,
+.social-icons a:hover {
+  color: #f3b664;
 }
+/* section footer */
+
 /* section card */
 @media only screen and (max-width: 550px) {
   .title {
@@ -500,6 +465,45 @@ li a {
   .container-faq {
     grid-template-columns: 1fr;
   }
+
+  .collapsible{
+    font-size: 15px
+  }
+ 
+
+  .body-card button {
+    padding: 5px;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+  }
+
+  .column2 {
+    justify-content: left;
+    text-align: left;
+  }
+
+  .join-container {
+    width: 50%;
+  }
+
+  .head-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 0;
+    padding: 0;
+
+  }
+
+  .body-card{
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+  }
 }
 
 @media only screen and (max-width: 390px) {
@@ -507,7 +511,26 @@ li a {
     padding-left: 0;
     padding-right: 0;
     font-size: 30px;
-    text-align: left;
+    text-align: center;
+  }
+
+  .login-joinwith h2 {
+    margin-top: 5rem;
+  }
+
+  .title-login{
+    margin-top: 500px;
+  }
+   
+  .body-card{
+    font-size: 20px;
+    margin: 5px;
+    font-weight: bold;
+  }
+
+  .body-card button {
+    font-size: 15px;
+    font-weight: bold;
   }
 }
 
@@ -564,13 +587,15 @@ li a {
   .join-list-item {
     padding-bottom: 8px;
   }
+
   /* section navbar */
   /* section join with us */
   .login-joinwith h2 {
     padding-top: 50px;
   }
-  .join-container {
-    width: 50%;
+  
+  .title-login{
+    margin-top: 50px;
   }
   /* section join with us */
 }

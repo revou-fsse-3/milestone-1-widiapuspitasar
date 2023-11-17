@@ -25,6 +25,16 @@ for (i = 0; i < coll.length; i++) {
   });
 }
 
-// script.js
+// alert form
+document.getElementById('loginForm').addEventListener('submit', function (event) {
+  event.preventDefault(); 
+  alert('Welcome to WebFun 😊');
+  window.location.href = '/index.html';
+});
+
+
+
+
+
 
 

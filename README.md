@@ -1,4 +1,4 @@
-![Header](readme-images/image.png)
+![Header](aseets\README\welcome.png)
 
 
 <h1 align="left">Welcome to our Web Courses! <img src="https://raw.githubusercontent.com/muhammad-avicena/profile/master/wave.gif" width="30px" height="30px" /> </h1>
@@ -64,62 +64,54 @@ git push origin main
 The following is the initial appearance of creating a website before adding CSS
 ![First Page](/aseets/README/1.jpeg)
 
+After creating website with adding css
+![First Page](aseets\README\aftercss.png)
+
 
 ## DEPLOYMENT  ⚙️
 
-The project has been successfully deployed using Netlify. You can access the production version of the website by following this link: [https://luxury-shop.avicena.dev](https://luxury-shop.avicena.dev) or [this link](https://www.luxury-shop.avicena.dev).
-### Deployment status : 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/fd84e054-64dc-46b4-967d-198778bd6c8a/deploy-status)](https://app.netlify.com/sites/avicena-week5/deploys)
+This website has been deployed using Vercel and is using a domain from Niaga Hoster. Here is the link to the deployed website: https://www.webwid.site/
 
-1. Connect your account to Netlify !
+### How to Deployment with Vercel : 
 
-The first step to deploy in Netlify is creating a new account or use existing account. As a beginner progammer, I would prefer using GitHub account instead.
+1. Connect your account to Vercel !
 
-After you successfully login, you will be redirected to dashboard of Netlify app. In this scenario, you will need to import your existing project from github to netlify. Add new site -> Import existing project -> Connect via GitHub 
+The initial stage in deploying on vercel involves either creating a new account or utilizing an existing one. For novice programmers, opting to use a GitHub account is often preferable.
 
-![Alt text](readme-images/2.png)
+Once you've logged in successfully, create a new website select "Add New Project" .
 
-2. Auto Deploy with Netlify !
+3. Import your website to be deployed, then select "Deploy"
 
-One of the benefit using your GitHub account connected to Netlify is that you don't have to worry about re-deploying your project manually, once there are changes that have been pushed in your repository, it will automatically re-deployed by Netlify within second.
+4. Congratulations, your website has been successfully deployed.
 
-![Alt text](readme-images/3.png)
+![Alt text](aseets\README\2.png)
 
-3. Domain Registrar with NiagaHoster & Cloudfire !
+### How to buy a domain on Niagahoster
+1. Log in to the Niagahoster web page. After entering the Niagahoster website, select "Register Domain". Next, create a name and select the desired domain, then select "Buy Now".
 
-Go to [https://niagahoster.co.id](https://niagahoster.co.id) and log in or create a new account. Check available domain that you wanted and make it yours.
+2. Select the desired payment. After you complete the payment, wait a few moments. Congratulations, now you have a domain with the name you want
 
-After that, go to [https://dash.cloudflare.com/](https://dash.cloudflare.com/) and log in or create a new account. You will be redirected to dashboard, add the domain that you have bought previously.
+![Alt text](aseets\README\6.png)
 
-![Alt text](readme-images/4.png)
+### How to manage DNS domains
 
-4. Modify your project with favorite customize domain !
+1. Enter the Vercel web then go to the "Domains" page, enter the domain that we previously created then click "Add".
 
-You're on the final step to bringing live your project with custom domain. Go to dashboard Cloudfire -> DNS Records -> CloudFire NameServer. You will see the information of Nameserver that is given to you.
 
-```
-Type  Value
-NS    andronicus.ns.cloudflare.com
-NS    paislee.ns.cloudflare.com
-```
-Copy these nameserver and jump into dashboard overview of NiagaHoster. You should replace it with NameServer of CloudFire.
+2. Add a domain following the recommendations given by vercel
 
-After that, go to Netlify Dashboard -> open your project -> Custom domain -> Add domain that you have set previously. In thise case, you will see they're awaiting for external DNS. You will get some information such as IPv4 and domain name that you should input it to CloudFire.
+3. You're on the final step to bringing live your project with custom domain. Copy the DNS provider listed in Vercel to Niagahoster DNS. 
 
-Use subdomain :
-```
-Type  Value           Content Name
-CNAME luxury-shop     avicena-week5.netlify.com
-```
+4. Return to the Niagahoster website, then go to the DNS page, adjust "Nameservers" with the nameservers provided by Niagahoster then press "Save"
 
-Final step, go to Dashboard Cloudfire -> DNS Records -> Add record domain -> set them accordingly.
-
-![Alt text](readme-images/5.png)
+![Alt text](aseets\README\3.png)
 
 5. Congratulations, You're done !
 
-You should wait within 1x24 hours to let the NiagaHoster and Cloudfire setting up the DNS, it could be faster or slower depending on the provider internet that you're using.
+You should wait within 1x24 hours to let the NiagaHoster and Vercel setting up the DNS, it could be faster or slower depending on the provider internet that you're using, if it is jammed then the display will look like the one below
 
-Feel free to explore the website and try out the different features. I appreciate any feedback and suggestions to further improve the user experience.
+![Alt text](aseets\README\4.png)
 
-Happy browsing!
+6. Congratulations, now the website with your new domain can be accessed 😊
+![Alt text](aseets\README\5.png)
+
