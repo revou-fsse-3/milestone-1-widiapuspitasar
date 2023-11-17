@@ -1,4 +1,4 @@
-![header](https://github.com/revou-fsse-3/milestone-1-widiapuspitasar/blob/main/aseets/README/welcome.png)?raw=true)
+![header](https://github.com/revou-fsse-3/milestone-1-widiapuspitasar/blob/main/aseets/README/welcome.png))
 >This is an assignment for Milestone 1 **My web application:https://www.webwid.site/**.
 
 <h1 align="left">Welcome to our Web Courses! <img src="https://raw.githubusercontent.com/muhammad-avicena/profile/master/wave.gif" width="30px" height="30px" /> </h1>
