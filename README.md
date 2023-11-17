@@ -1,5 +1,6 @@
+![Header](aseets\README\welcome.png)
+>This is an assignment for Milestone 1 **My web application:https://www.webwid.site/**.
 
-![header](https://github.com/revou-fsse-3/milestone-1-widiapuspitasar/blob/main/aseets/README/welcome.png)?raw=true)
 
 <h1 align="left">Welcome to our Web Courses! <img src="https://raw.githubusercontent.com/muhammad-avicena/profile/master/wave.gif" width="30px" height="30px" /> </h1>
 
@@ -22,7 +23,7 @@ Find me on:
   - Home section
   - Courses section
   - FAQ section
-  - Testimonial section
+  - Term Of Condition section
 - Footer
 
 ## Tools I USE 📜
@@ -32,6 +33,7 @@ Find me on:
 - External/Internal Source
   - Icon (Using awesome fonts)
   - Image (Search from unsplas.com and Google.com)
+  - Fonts (using poppins by Google Fonts)
 
 
 ## HOW TO SET UP 📰
@@ -62,17 +64,15 @@ git push origin main
 
 ## Progress of building this web 
 The following is the initial appearance of creating a website before adding CSS
-![First Page](https://github.com/revou-fsse-3/milestone-1-widiapuspitasar/blob/main/aseets/README/1.jpeg?raw=true)
-
-https://github.com/revou-fsse-3/milestone-1-widiapuspitasar/blob/main/aseets/README/welcome.png
+![First Page](/aseets/README/1.jpeg)
 
 After creating website with adding css
-![second Page](https://github.com/revou-fsse-3/milestone-1-widiapuspitasar/blob/main/aseets/README/aftercss.png?raw=true)
+![First Page](aseets\README\aftercss.png)
 
 
 ## DEPLOYMENT  ⚙️
 
-This website has been deployed using Vercel and is using a domain from Niaga Hoster. Here is the link to the deployed website: https://www.webwid.site/
+This website has been deployed using Vercel and is using a domain from Niagahoster. Here is the link to the deployed website: https://www.webwid.site/
 
 ### How to Deployment with Vercel : 
 
@@ -86,14 +86,14 @@ Once you've logged in successfully, create a new website select "Add New Project
 
 4. Congratulations, your website has been successfully deployed.
 
-![deploy](https://github.com/revou-fsse-3/milestone-1-widiapuspitasar/blob/main/aseets/README/2.png?raw=true)
+![Alt text](aseets\README\2.png)
 
 ### How to buy a domain on Niagahoster
 1. Log in to the Niagahoster web page. After entering the Niagahoster website, select "Register Domain". Next, create a name and select the desired domain, then select "Buy Now".
 
 2. Select the desired payment. After you complete the payment, wait a few moments. Congratulations, now you have a domain with the name you want
 
-![niagahoster](https://github.com/revou-fsse-3/milestone-1-widiapuspitasar/blob/main/aseets/README/6.png?raw=true)
+![Alt text](aseets\README\6.png)
 
 ### How to manage DNS domains
 
@@ -106,14 +106,14 @@ Once you've logged in successfully, create a new website select "Add New Project
 
 4. Return to the Niagahoster website, then go to the DNS page, adjust "Nameservers" with the nameservers provided by Niagahoster then press "Save"
 
-![dns](https://github.com/revou-fsse-3/milestone-1-widiapuspitasar/blob/main/aseets/README/3.png?raw=true)
+![Alt text](aseets\README\3.png)
 
 5. Congratulations, You're done !
 
 You should wait within 1x24 hours to let the NiagaHoster and Vercel setting up the DNS, it could be faster or slower depending on the provider internet that you're using, if it is jammed then the display will look like the one below
 
-![dns_done](https://github.com/revou-fsse-3/milestone-1-widiapuspitasar/blob/main/aseets/README/4.png?raw=true)
+![Alt text](aseets\README\4.png)
 
 6. Congratulations, now the website with your new domain can be accessed 😊
-![welcome](https://github.com/revou-fsse-3/milestone-1-widiapuspitasar/blob/main/aseets/README/welcome.png?raw=true)
+![Alt text](aseets\README\5.png)
 
