@@ -64,7 +64,9 @@ git push origin main
 
 ## Progress of building this web 
 The following is the initial appearance of creating a website before adding CSS
-![First Page](/aseets/README/1.jpeg)
+![First Page](https://github.com/revou-fsse-3/milestone-1-widiapuspitasar/blob/main/aseets/README/1.jpeg?raw=true)
+
+https://github.com/revou-fsse-3/milestone-1-widiapuspitasar/blob/main/aseets/README/welcome.png
 
 After creating website with adding css
 ![First Page](aseets\README\aftercss.png)
