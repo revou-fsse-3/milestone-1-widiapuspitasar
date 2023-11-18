@@ -2,7 +2,7 @@
 document.addEventListener("DOMContentLoaded", function() {
     const menuIcon = document.getElementById("menu-icon");
     const menuList = document.getElementById("menu-list");
-    const joinButton = document.querySelector('.join');
+  
   
     menuIcon.addEventListener("click", () => {
       menuList.classList.toggle("hidden"); 

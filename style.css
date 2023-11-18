@@ -10,6 +10,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: Poppins-Medium;
+
 }
 
 /* section navbar */
@@ -39,10 +40,6 @@ nav ul {
   margin-left: 30px;
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
-  animation: fadeInUp 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both,
-    moveDown 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) 1.5s both;
-  transform: translateY(-50px);
-  opacity: 0;
 }
 
 nav ul li a {
@@ -54,11 +51,6 @@ nav ul li a {
   transition: all;
   transition-duration: 300ms;
   border-bottom: 1px solid rgba(255, 68, 0, 0);
-
-  animation: fadeInUp 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both,
-    moveDown 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) 1.5s both;
-  transform: translateY(-50px);
-  opacity: 0;
 }
 
 nav ul li a:hover {
@@ -76,15 +68,11 @@ nav ul li a:hover {
   padding: 10px;
   background-color: #ec8f5e;
   border: solid 2px #f4dfb6;
-  border-radius: 5px;
+  border-radius: 20px;
   font-weight: 800;
   text-decoration: none;
   color: black;
 
-  animation: fadeInUp 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both,
-    moveDown 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) 1.5s both;
-  transform: translateY(-50px);
-  opacity: 0;
 }
 
 .join:hover {
@@ -112,8 +100,7 @@ nav ul li a:hover {
   position: absolute;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.5);
-  filter: blur(3px);
+  background: rgba(0, 0, 0, 0.7);
   z-index: 1;
 }
 
@@ -125,6 +112,7 @@ nav ul li a:hover {
   z-index: 2;
   text-align: center;
   width: 100%;
+ 
 }
 
 .title {
@@ -133,6 +121,8 @@ nav ul li a:hover {
   padding-top: 20px;
   padding-bottom: 20px;
   font-size: 3rem;
+  padding-left: 30px;
+  padding-right: 30px;
 
   animation: fadeInUp 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both,
     moveDown 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) 1.5s both;
@@ -228,6 +218,10 @@ nav ul li a:hover {
   justify-content: center;
 }
 
+.head-card h3 {
+  padding: 15px;
+}
+
 .body-card {
   display: flex;
   justify-content: space-between;
@@ -253,6 +247,8 @@ nav ul li a:hover {
   text-shadow: 3px 2px 4px white;
   padding-top: 2rem;
   padding-bottom: 2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
   font-size: 2rem;
   text-align: center;
 }
@@ -298,7 +294,8 @@ nav ul li a:hover {
 }
 
 .container-faq {
-  padding: 0;
+  padding-left: 10px;
+  padding-right: 10px;
   margin: 10px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -320,11 +317,13 @@ nav ul li a:hover {
 
 /* Section Term of Condition */
 .toc-container {
+ 
   background-color: #f4dfb6;
-  padding: 1rem;
+  padding: 1.5rem;
 }
 
 .toc-title h3 {
+  padding-top: 3rem;
   font-size: 2rem;
   color: black;
   text-align: center;
@@ -332,6 +331,11 @@ nav ul li a:hover {
 /* Section Term of Condition */
 
 /* section join with us */
+
+.login-joinwith{
+ height: 100vh;
+}
+
 .login-joinwith h2 {
   font-size: 2rem;
   padding: 1rem;
@@ -396,6 +400,7 @@ footer {
   color: black;
   padding: 20px;
   display: flex;
+ 
 }
 
 .footer-container {
@@ -532,9 +537,8 @@ li a {
 
   .head-card h3{
     font-size: 20px;
-    
   }
-
+  
   .body-card button {
     font-size: 15px;
     font-weight: bold;
@@ -565,6 +569,7 @@ li a {
 
   nav ul li:last-of-type {
     padding-bottom: 8px;
+    
   }
 
   nav ul.hidden {
